@@ -1,0 +1,3 @@
+## 第二遍学习react官方文档收获
++ 1、使用箭头函数传参 onClick = { (id) = {this.handleClick(id)}}
++ 2、条件渲染的 && 方法  { true && <div>hello word</div> }
