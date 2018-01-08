@@ -1,3 +1,4 @@
 ## 第二遍学习react官方文档收获
 + 1、使用箭头函数传参 onClick = { (id) = {this.handleClick(id)}}
 + 2、条件渲染的 && 方法  { true && <div>hello word</div> }
++ 3、state 只在交互的时候出现 静态数据是从父级传到子级
