@@ -9,7 +9,7 @@
       <MessageList messages={props.messages} />
     }
   </div>`
-> 改为 请确保 && 前面的表达式始终为布尔值
+ 改为 请确保 && 前面的表达式始终为布尔值
  `<div>
     {props.messages.length > 0 &&
       <MessageList messages={props.messages} />
