@@ -5,15 +5,16 @@
 + 4、条件渲染
 > 值得注意的是，JavaScript 中的一些 “falsy” 值(比如数字0)，它们依然会被渲染。例如，下面的代码不会像你预期的那样运行，因为当 props.message 为空数组
 > 时，它会打印0
->    <div>
+>    `<div>
 >       {props.messages.length &&
 >       <MessageList messages={props.messages} />
 >        }
->     </div>
+>     </div>`
 > 改为 请确保 && 前面的表达式始终为布尔值
-> <div>
->   {props.messages.length > 0 &&
->      <MessageList messages={props.messages} />
->    }
->  </div>
+>     `<div>
+>        {props.messages.length > 0 &&
+>         <MessageList messages={props.messages} />
+>        }
+>     </div>`
 + 5、react的高级API context 是向子孙组件传递数据的方式，可以不用在组件属性上一级一级的向下传递。但是该API并不成熟，存在一定问题，慎用。
++ 6、<></> React 中一个常见模式是为一个组件返回多个元素。Fragments 可以让你聚合一个子元素列表，并且不在DOM中增加额外节点。另一种使用片段的方式是使用 React.Fragment 组件，React.Fragment 组件可以在 React 对象上使用。
