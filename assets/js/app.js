@@ -202,7 +202,7 @@ webpackJsonp([0], {
                 }, [a("img", {
                     staticClass: "ava",
                     attrs: {
-                        src: "https://avatars2.githubusercontent.com/u/34954129?s=40&v=4"
+                        src: "https://avatars3.githubusercontent.com/u/34954129"
                     }
                 })]), this._v(" "), a("div", {
                     staticClass: "link-img"
