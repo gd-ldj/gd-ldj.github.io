@@ -215,7 +215,7 @@ webpackJsonp([0], {
                 }, [a("img", {
                     staticClass: "csdn-ava",
                     attrs: {
-                        src: "https://csdnimg.cn/cdn/content-toolbar/csdn-logo_.png?v=20190924.1"
+                        src: "https://g.csdnimg.cn/static/logo/favicon32.ico"
                     }
                 })]), this._v(" "), a("a", {
                     staticClass: "link-github",
