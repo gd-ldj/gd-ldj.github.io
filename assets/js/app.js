@@ -210,7 +210,7 @@ webpackJsonp([0], {
                     staticClass: "link-csdn",
                     attrs: {
                         target: "_blank",
-                        href: "https://blog.csdn.net/qq_41969216"
+                        href: "/"
                     }
                 }, [a("img", {
                     staticClass: "csdn-ava",
@@ -232,7 +232,7 @@ webpackJsonp([0], {
                     staticClass: "link-jj",
                     attrs: {
                         target: "_blank",
-                        href: "https://juejin.im/user/5ab1ae2b6fb9a028b86de19d"
+                        href: "/"
                     }
                 }, [a("img", {
                     staticClass: "jj-ava",
